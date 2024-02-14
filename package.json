@@ -1,5 +1,5 @@
 {
-  "name": "json-to-ts",
+  "name": "@nstseek/json-to-ts",
   "version": "1.0.0",
   "description": "Converts JSON objects to TS types",
   "main": "index.js",
