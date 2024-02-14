@@ -1,0 +1,15 @@
+{
+  "name": "json-to-ts",
+  "version": "1.0.0",
+  "description": "Converts JSON objects to TS types",
+  "main": "index.js",
+  "author": "Rafael Lopes Schneider",
+  "license": "MIT",
+  "dependencies": {
+    "@prettier/sync": "^0.5.1",
+    "prettier": "^3.2.5"
+  },
+  "bin": {
+    "json-to-ts": "./index.js"
+  }
+}
