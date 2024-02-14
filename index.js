@@ -79,10 +79,12 @@ Object.values(regexes).forEach((regexObj) => {
   newFile = formatFile(newFile);
 });
 
-fs.writeFileSync(
-  path.join(__dirname, "typeFile.ts"),
-  "/* Generated type */\n\n" + newFile,
-  {
+const finalFile = "/* Generated type */\n\n" + newFile;
+
+if (process.argv[3]) {
+  fs.writeFileSync(process.argv[3], finalFile, {
     encoding: "utf-8",
-  }
-);
+  });
+} else {
+  console.log(finalFile);
+}
