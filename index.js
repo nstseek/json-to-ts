@@ -81,10 +81,4 @@ Object.values(regexes).forEach((regexObj) => {
 
 const finalFile = "/* Generated type */\n\n" + newFile;
 
-if (process.argv[3]) {
-  fs.writeFileSync(process.argv[3], finalFile, {
-    encoding: "utf-8",
-  });
-} else {
-  console.log(finalFile);
-}
+console.log(finalFile);
