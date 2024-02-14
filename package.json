@@ -1,10 +1,23 @@
 {
   "name": "@nstseek/json-to-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts JSON objects to TS types",
   "main": "index.js",
   "author": "Rafael Lopes Schneider",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nstseek/json-to-ts/tree/master"
+  },
+  "keywords": [
+    "json",
+    "typescript",
+    "js",
+    "ts",
+    "javascript",
+    "types",
+    "generate"
+  ],
   "dependencies": {
     "@prettier/sync": "^0.5.1",
     "prettier": "^3.2.5"
